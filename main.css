@@ -13,3 +13,7 @@
     margin: 1em !important;
     border-radius: 0% !important;
 }
+*:active{
+    padding: 100em !important;
+    margin: 50em !important;
+}
