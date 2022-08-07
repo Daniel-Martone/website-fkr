@@ -1,0 +1,15 @@
+*{
+    background-image: linear-gradient(to right, red, yellow, green, blue, black, red, blue, white, green, brown) !important;
+    color: red !important;
+    transition: 1.5s !important;
+    padding: 2em !important;
+    margin: -20px !important;
+    border-radius: 50% !important;
+}
+*:hover{
+    background-image: linear-gradient(33deg, green, yellow, red, blue, black, brown, green, white, red, blue, yellow, purple, pink, green, blue, white, red) !important;
+    color: blue !important;
+    padding: 5em !important;
+    margin: 1em !important;
+    border-radius: 0% !important;
+}

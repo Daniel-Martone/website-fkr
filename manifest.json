@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "website fkr",
+    "description":"destroys a website, google and github by default",
+    "version": "3",
+    "icons": {
+        "16": "Screenshot_230.png",
+        "48": "Screenshot_230.png",
+        "128": "Screenshot_230.png"
+    },
+    "content_scripts": [{
+        "matches": ["https://*.org/*", "https://*.com/*", "https://*.net/*.", "https://*.co/*", "https://*.site/*"],
+        "js": ["script.js"],
+        "css": ["main.css"]
+    }]
+}
