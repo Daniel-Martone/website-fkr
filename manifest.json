@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "website fkr",
-    "description":"destroys a website, google and github by default",
+    "description":"Destroys a website with custom CSS and JS",
     "version": "3",
     "icons": {
         "16": "Screenshot_230.png",
